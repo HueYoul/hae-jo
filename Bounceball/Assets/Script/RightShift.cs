@@ -16,13 +16,14 @@ public class RightShift : MonoBehaviour
         
     }
 
-    /*private void OntriggerStay2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
+            collision.gameObject.GetComponent<Player>().noGravity = true;
             collision.gameObject.transform.position = gameObject.transform.position + new Vector3(0.4f, 0, 0);
-            collision.gameObejct.GetComponent<Rigidbody2D>().gravityScale = 0;
-            collision.gameObejct.GetComponent<Rigidbody2D>().velocity = new Vector2(0.5f, 0);
+            collision.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(1f, 0);
         }
-    }*/
+    }
 }
