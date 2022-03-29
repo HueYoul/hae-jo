@@ -30,7 +30,11 @@ C#
 #### 2022.03.18
 특수 블록을 하나 구현했다.
 밟으면 다른 키를 누르기 전까지 화살표 방향으로 쭉 간다.
-https://user-images.githubusercontent.com/92212636/160586371-7d1841a2-6173-4e7e-beca-90fa64895fdf.mp4
+
+
+https://user-images.githubusercontent.com/92212636/160586477-60f4008c-4565-48a8-afd3-3e97324a716a.mp4
+
+
 
 
 #### 2022.03.19
