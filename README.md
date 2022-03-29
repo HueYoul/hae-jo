@@ -43,6 +43,12 @@ https://user-images.githubusercontent.com/92212636/160586477-60f4008c-4565-48a8-
 이후에 공이 없어지고 리스폰 되는것을 구현할 예정이다.
 
 
+
+https://user-images.githubusercontent.com/92212636/160586916-445c9cda-0aaf-4bdf-a6d0-3d8849346995.mp4
+
+
+
+
 #### 2022.03.23
 간단한 서버 구축완료하였다.
 처음이라 굉장히 애를 먹었지만 그래도 성공한 것에 매우 기쁘다.
@@ -51,6 +57,12 @@ https://user-images.githubusercontent.com/92212636/160586477-60f4008c-4565-48a8-
 오늘은 기울기를 추가하여 모바일로 실행시켜 봤다.
 핸드폰을 기울이면 움직이긴 하지만 이상하게 공이 튀기는 높이가 낮다.
 무엇이 잘못일까? 좀 더 수정이 필요해 보인다.
-https://user-images.githubusercontent.com/92212636/160585788-b88cd3f8-6e87-4b07-bce8-dec9d95a69d3.mp4
+
+
+
+
+
+https://user-images.githubusercontent.com/92212636/160586969-8d0267cc-716d-44eb-a670-c5576256317f.mp4
+
 
 
