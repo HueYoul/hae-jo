@@ -27,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -40,11 +39,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -87,6 +81,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -126,41 +122,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3122}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 3262}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 3528}
     - Class: 114
       Script: {instanceID: 3538}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 4312}
+      Script: {instanceID: 4002}
     - Class: 114
-      Script: {instanceID: 4624}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 4760}
+      Script: {instanceID: 4626}
     - Class: 114
-      Script: {instanceID: 4766}
+      Script: {instanceID: 4762}
     - Class: 114
-      Script: {instanceID: 5000}
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 5002}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5832}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 6278}
+      Script: {instanceID: 5834}
     - Class: 114
-      Script: {instanceID: 25652}
+      Script: {instanceID: 6280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -652,6 +648,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CountOfPlayersProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 59cec82abea2fbee6d382e7d6bd062f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
   - hash:
       serializedVersion: 2
       Hash: a8e4bc52348c9279d138a27b5a850d5b
@@ -1600,12 +1602,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: 910588586dd4f45441fed76b37e834ae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

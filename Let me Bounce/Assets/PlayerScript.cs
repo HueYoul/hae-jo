@@ -4,8 +4,9 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
-/*using Cinemachine;
+using Cinemachine;
 
+/*
 public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
 {
     public Rigidbody2D RB;
@@ -117,19 +118,71 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
     public SpriteRenderer SR;
     public PhotonView PV;
     public Text NickNameText;
+    public bool noGravity = false;
 
     bool isGround;
     Vector3 curPos;
+
+    float threshold = 0.2f;
+    float walkForce = 100.0f;
+    float maxWalkSpeed = 2.0f;
 
     void Awake()
     {
         // 닉네임
         NickNameText.text = PV.IsMine ? PhotonNetwork.NickName : PV.Owner.NickName;
         NickNameText.color = PV.IsMine ? Color.green : Color.red;
+
+        if (PV.IsMine)
+        {
+            // 2D 카메라
+            var CM = GameObject.Find("CMCamera").GetComponent<CinemachineVirtualCamera>();
+            CM.Follow = transform;
+            CM.LookAt = transform;
+        }
+    }
+
+    void Update()
+    {
+        if (PV.IsMine)
+        {
+            // ← → 이동
+            float axis = Input.GetAxisRaw("Horizontal");
+            RB.velocity = new Vector2(4 * axis, RB.velocity.y);
+
+            isGround = Physics2D.OverlapCircle((Vector2)transform.position + new Vector2(0, -0.5f), 0.07f, 1 << LayerMask.NameToLayer("Ground"));
+            if(isGround)
+            {
+                RB.velocity = Vector2.zero;
+                RB.AddForce(Vector2.up * 100);
+            }
+
+            /*int key = 0;
+            if (Input.acceleration.x > this.threshold) key = 1;
+            if (Input.acceleration.x < this.threshold) key = -1;
+
+            float speedx = Mathf.Abs(this.RB.velocity.x);
+
+            if(speedx < this.maxWalkSpeed)
+            {
+                this.RB.AddForce(transform.right * key * this.walkForce);
+            }*/
+
+        }
+
+        else if ((transform.position - curPos).sqrMagnitude >= 100) transform.position = curPos;
+        else transform.position = Vector3.Lerp(transform.position, curPos, Time.deltaTime * 10);
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-
+        if (stream.IsWriting)
+        {
+            stream.SendNext(transform.position);
+        }
+        else
+        {
+            curPos = (Vector3)stream.ReceiveNext();
+        }
     }
 }

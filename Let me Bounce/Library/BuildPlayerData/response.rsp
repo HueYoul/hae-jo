@@ -16,6 +16,7 @@
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Library\PlayerScriptAssemblies\PhotonUnityNetworking.Demos.dll"
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Library\PlayerScriptAssemblies\Unity.2D.Common.Runtime.dll"
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Library\PlayerScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll"
+-a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Library\PlayerScriptAssemblies\Cinemachine.dll"
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Assets\Photon\PhotonLibs\Photon3Unity3D.dll"
 -a="C:\Users\HUEYOUL2\Unity\Let me Bounce\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll"
