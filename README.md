@@ -30,6 +30,7 @@ C#
 #### 2022.03.18
 특수 블록을 하나 구현했다.
 밟으면 다른 키를 누르기 전까지 화살표 방향으로 쭉 간다.
+https://user-images.githubusercontent.com/92212636/160586371-7d1841a2-6173-4e7e-beca-90fa64895fdf.mp4
 
 
 #### 2022.03.19
@@ -38,11 +39,6 @@ C#
 이후에 공이 없어지고 리스폰 되는것을 구현할 예정이다.
 
 
-https://user-images.githubusercontent.com/92212636/160585788-b88cd3f8-6e87-4b07-bce8-dec9d95a69d3.mp4
-
-
-
-![캡처](https://user-images.githubusercontent.com/92212636/160585284-013cbae8-35a1-4841-a65a-14bed5be0696.PNG)
 #### 2022.03.23
 간단한 서버 구축완료하였다.
 처음이라 굉장히 애를 먹었지만 그래도 성공한 것에 매우 기쁘다.
@@ -51,5 +47,6 @@ https://user-images.githubusercontent.com/92212636/160585788-b88cd3f8-6e87-4b07-
 오늘은 기울기를 추가하여 모바일로 실행시켜 봤다.
 핸드폰을 기울이면 움직이긴 하지만 이상하게 공이 튀기는 높이가 낮다.
 무엇이 잘못일까? 좀 더 수정이 필요해 보인다.
+https://user-images.githubusercontent.com/92212636/160585788-b88cd3f8-6e87-4b07-bce8-dec9d95a69d3.mp4
 
 
