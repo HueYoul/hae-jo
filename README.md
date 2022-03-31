@@ -35,7 +35,8 @@ C#
 밟으면 다른 키를 누르기 전까지 화살표 방향으로 쭉 간다.
 
 
-https://user-images.githubusercontent.com/92212636/160586477-60f4008c-4565-48a8-afd3-3e97324a716a.mp4
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/92212636/160977451-81c74a8a-475b-4416-a2bd-58074c1530ac.gif)
+
 
 
 
@@ -47,7 +48,8 @@ https://user-images.githubusercontent.com/92212636/160586477-60f4008c-4565-48a8-
 
 
 
-https://user-images.githubusercontent.com/92212636/160586916-445c9cda-0aaf-4bdf-a6d0-3d8849346995.mp4
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/92212636/160977466-d54176a4-6f1c-48a5-9685-80eba2145435.gif)
+
 
 
 
@@ -64,8 +66,9 @@ https://user-images.githubusercontent.com/92212636/160586916-445c9cda-0aaf-4bdf-
 
 
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/92212636/160977486-24523c90-4de4-41bc-a4d4-c2951506824c.gif)
 
-https://user-images.githubusercontent.com/92212636/160586969-8d0267cc-716d-44eb-a670-c5576256317f.mp4
+
 
 
 
