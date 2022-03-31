@@ -65,8 +65,8 @@ C#
 
 
 
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92212636/160977548-6d8e25e2-e921-46a6-921f-ad836cff06c8.gif)
 
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/92212636/160977486-24523c90-4de4-41bc-a4d4-c2951506824c.gif)
 
 
 
