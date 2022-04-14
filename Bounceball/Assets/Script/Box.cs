@@ -8,7 +8,7 @@ public class Box : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.gameObject.SetActive(false);
+            collision.gameObject.transform.position = new Vector3(0, 0, 0); ;
         }
     }
 }

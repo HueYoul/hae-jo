@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
             gameObject.transform.Translate(new Vector3(-0.002f, 0, 0));
         }
 
-        if(Input.GetKey(KeyCode.UpArrow) && canDoubleJump)
+        if (Input.GetKey(KeyCode.UpArrow) && canDoubleJump)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 150));
             canDoubleJump = false;

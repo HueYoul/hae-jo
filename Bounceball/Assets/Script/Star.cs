@@ -11,6 +11,7 @@ public class Star : MonoBehaviour
             //collision.gameObject.GetComponent<GameManager>().star++;
             GameObject.Find("GameManager").GetComponent<GameManager>().star++;
             gameObject.SetActive(false);
+            GameObject.Find("Timer").GetComponent<Timer>().Star++;
         }
     }
 }
