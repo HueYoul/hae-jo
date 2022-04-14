@@ -69,9 +69,15 @@ C#
 
 
 ### 2022.04.09
-클리어 시간을 측정하기 위해 타이머를 구현했다.
+클리어 시간을 측정하기 위한 타이머를 구현했다.
+맵 내에 있는 별을 다 먹으면 타이머가 종료된다.
 
-![타이머 구현](https://user-images.githubusercontent.com/92212636/163380310-2c0de61a-1989-492f-8ab2-450dcfb179d6.gif)
+![클리어 구현](https://user-images.githubusercontent.com/92212636/163381425-3e4ccc76-927e-46d2-9196-c5fef010bc30.gif)
+
+
+별을 먹고 함정을 밟으면 별도 같이 초기화가 되어야 하는데 아직 그건 구현하지 못했다.
+
+![스타 초기화 문제](https://user-images.githubusercontent.com/92212636/163381444-ae62f5f5-7076-479c-b759-2012867d7af4.gif)
 
 
 
