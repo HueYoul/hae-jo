@@ -68,6 +68,10 @@ C#
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92212636/160977548-6d8e25e2-e921-46a6-921f-ad836cff06c8.gif)
 
 
+### 2022.04.09
+클리어 시간을 측정하기 위해 타이머를 구현했다.
+
+![타이머 구현](https://user-images.githubusercontent.com/92212636/163380310-2c0de61a-1989-492f-8ab2-450dcfb179d6.gif)
 
 
 
