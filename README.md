@@ -68,27 +68,6 @@ C#
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92212636/160977548-6d8e25e2-e921-46a6-921f-ad836cff06c8.gif)
 
 
-### 2022.04.09
-클리어 시간을 측정하기 위한 타이머를 구현했다.
-맵 내에 있는 별을 다 먹으면 타이머가 종료된다.
-
-![클리어 구현](https://user-images.githubusercontent.com/92212636/163381425-3e4ccc76-927e-46d2-9196-c5fef010bc30.gif)
-
-
-별을 먹고 함정을 밟으면 별도 같이 초기화가 되어야 하는데 아직 그건 구현하지 못했다.
-
-![스타 초기화 문제](https://user-images.githubusercontent.com/92212636/163381444-ae62f5f5-7076-479c-b759-2012867d7af4.gif)
-
-### 2022.04.20
-서버에 타이머랑 더블점프, 함정 등 특수효과를 구현했다.
-근데 지금 두명의 플레이어의 시간이 다르게 측정된다는 문제점이 있다.
-
-![0420](https://user-images.githubusercontent.com/92212636/164230016-b80d3705-560d-47cf-826b-d6b6d659ec2d.gif)
-
-
-
-
-
 
 
 
