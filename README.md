@@ -84,8 +84,10 @@ C#
 
 
 
+![특수효과구현(서버)](https://user-images.githubusercontent.com/92212636/164229026-f45b0b4e-6ab5-4495-8353-fd1ca8fa09aa.gif)
 
-https://user-images.githubusercontent.com/92212636/164228860-514b6e38-8db7-40ec-9c5d-50a33ec80406.mp4
+
+
 
 
 
