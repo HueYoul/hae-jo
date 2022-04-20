@@ -80,7 +80,9 @@ C#
 ![스타 초기화 문제](https://user-images.githubusercontent.com/92212636/163381444-ae62f5f5-7076-479c-b759-2012867d7af4.gif)
 
 ### 2022.04.20
-서버에 타이머랑 더블점프, 함정등 특수효과를 구현했다.
+서버에 타이머랑 더블점프, 함정 등 특수효과를 구현했다.
+
+![1](https://user-images.githubusercontent.com/92212636/164229160-e8012e94-394e-4c85-8252-b776195f3e9b.PNG)
 
 
 
