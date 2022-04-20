@@ -68,6 +68,13 @@ C#
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92212636/160977548-6d8e25e2-e921-46a6-921f-ad836cff06c8.gif)
 
 
+#### 2022.04.09
+
+![스타 초기화 문제](https://user-images.githubusercontent.com/92212636/164236632-3a0f8973-56ef-4062-9cfb-117010b32b66.gif)
+
+![클리어 구현](https://user-images.githubusercontent.com/92212636/164236645-596b6f1a-b815-4e7e-898f-5244af25f245.gif)
+
+
 
 #### 2022.04.20
 서버에 타이머와 더블점프, 함정 등 특수효과를 구현했다. 
