@@ -70,6 +70,10 @@ C#
 
 #### 2022.04.09
 
+별을 다 먹었을때 클리어는 구현했지만
+
+별을 먹다가 죽었을때 별을 초기화가 안되는 문제점이 있다.
+
 ![스타 초기화 문제](https://user-images.githubusercontent.com/92212636/164236632-3a0f8973-56ef-4062-9cfb-117010b32b66.gif)
 
 ![클리어 구현](https://user-images.githubusercontent.com/92212636/164236645-596b6f1a-b815-4e7e-898f-5244af25f245.gif)
