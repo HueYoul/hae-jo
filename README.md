@@ -81,12 +81,10 @@ C#
 
 ### 2022.04.20
 서버에 타이머랑 더블점프, 함정 등 특수효과를 구현했다.
+근데 지금 두명의 플레이어의 시간이 다르게 측정된다는 문제점이 있다.
 
-![1](https://user-images.githubusercontent.com/92212636/164229160-e8012e94-394e-4c85-8252-b776195f3e9b.PNG)
+![0420](https://user-images.githubusercontent.com/92212636/164230016-b80d3705-560d-47cf-826b-d6b6d659ec2d.gif)
 
-
-
-![특수효과구현(서버)](https://user-images.githubusercontent.com/92212636/164229026-f45b0b4e-6ab5-4495-8353-fd1ca8fa09aa.gif)
 
 
 
