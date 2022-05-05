@@ -12,12 +12,13 @@ public class Timer_ : MonoBehaviour
 
     void Update()
     {
-        if (Star < 1)
+        text_Timer.text = "Time : " + string.Format("{0:0.#}", LimitTime);
+        if (Star >= 1 && Star < 2)
         {
             LimitTime += Time.deltaTime;
             text_Timer.text = "Time : " + string.Format("{0:0.#}", LimitTime);
         }
-        if (Star >= 1)
+        if (Star >= 2)
         {
             text_Timer.text = "Time : " + string.Format("{0:0.#}", LimitTime);
         }

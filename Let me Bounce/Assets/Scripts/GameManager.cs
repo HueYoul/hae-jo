@@ -10,9 +10,9 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (star == 1)
+        if (star == 2)
         {
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             ending.SetActive(true);
             //Destroy(player);
         }

@@ -58,7 +58,7 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
             {
                 noGravity = false;
                 gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-                gameObject.GetComponent<Rigidbody2D>().gravityScale = 3;
+                gameObject.GetComponent<Rigidbody2D>().gravityScale = 5;
             }
 
             if (Input.GetKey(KeyCode.RightArrow))
