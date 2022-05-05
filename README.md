@@ -87,5 +87,16 @@ C#
 
 ![0420](https://user-images.githubusercontent.com/92212636/164236403-7168a622-53fe-4f5c-aaf3-fe499280eca4.gif)
 
+#### 2022.05.05
+오늘은 타이머를 일부분 손보고 스테이지 변경을 구현하였다.
 
+![0505](https://user-images.githubusercontent.com/92212636/166886256-c5fd0d69-e832-4524-8e3c-c3e9aa3c2222.gif)
+
+
+별을 하나 먹으면 타이머가 시작된다.
+
+![0505(1)](https://user-images.githubusercontent.com/92212636/166886283-1c842d85-ac6b-4fe3-8ecb-8edd255f0476.gif)
+
+스테이지 내의 별을 다 먹으면 다음 스테이지로 넘어간다.
+좌측상단에 현재 몇 스테이지인지 알려주는 텍스트를 표시한다.
 
