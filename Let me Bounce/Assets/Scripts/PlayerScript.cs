@@ -20,9 +20,11 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
     bool isGround;
     Vector3 curPos;
 
-    float threshold = 0.2f;
+    float threshold = 0.1f;
     float walkForce = 150.0f;
     float maxWalkSpeed = 1.0f;
+
+    float speed = 10.0f;
 
     void Awake()
     {
@@ -43,14 +45,14 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
     {
         if (PV.IsMine)
         {
-            if(noGravity && Input.anyKeyDown)
+            if (noGravity && Input.anyKeyDown)
             {
                 noGravity = false;
                 gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = 5;
             }
 
-            if (Input.GetKey(KeyCode.RightArrow))
+            /*if (Input.GetKey(KeyCode.RightArrow))
             {
                 gameObject.transform.Translate(new Vector3(0.02f, 0, 0));
             }
@@ -58,20 +60,13 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 gameObject.transform.Translate(new Vector3(-0.02f, 0, 0));
-            }
+            }*/
 
             if (canDoubleJump)
             {
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 700));
                 canDoubleJump = false;
             }
-            if(gameObject.transform.position.y == -4)
-            {
-                Debug.Log("asasas");
-                gameObject.transform.position = new Vector3(0, 0, 0);
-                //PhotonNetwork.Instantiate("Player", new Vector3(Random.Range(0f, 1f), 0, 0), Quaternion.identity);
-            }
-            
 
             /*int key = 0;
             if (Input.acceleration.x > this.threshold) key = 1;
@@ -84,16 +79,24 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
                 this.RB.AddForce(transform.right * key * this.walkForce);
             }*/
 
+            Vector3 dir = Vector3.zero;
+            dir.x = Input.acceleration.x;
+            //dir.y = Input.acceleration.y;
 
+            if (dir.sqrMagnitude > 1)
+                dir.Normalize();
 
+            dir *= Time.deltaTime;
 
+            transform.Translate(dir * speed);
+
+            gameObject.transform.Translate(dir * speed);
 
         }
 
         else if ((transform.position - curPos).sqrMagnitude >= 100) transform.position = curPos;
         else transform.position = Vector3.Lerp(transform.position, curPos, Time.deltaTime * 10);
     }
-
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {

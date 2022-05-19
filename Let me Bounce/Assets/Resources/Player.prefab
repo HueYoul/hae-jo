@@ -255,6 +255,7 @@ MonoBehaviour:
   NickNameText: {fileID: 3406383956294274963}
   noGravity: 0
   canDoubleJump: 0
+  astar: 0
 --- !u!1 &5154020772682143575
 GameObject:
   m_ObjectHideFlags: 0
