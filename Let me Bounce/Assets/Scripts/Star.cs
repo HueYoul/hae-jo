@@ -11,8 +11,10 @@ public class Star : MonoBehaviour
         {
             GameObject.Find("GameManager").GetComponent<GameManager>().star++;           
             GameObject.Find("timer").GetComponent<Timer_>().Star++;
-            //GameObject.Find("ClearDirector").GetComponent<ClearDirector>().clearstar++;
+            GameObject.FindWithTag("ClearStar").GetComponent<ClearStar>().clear++;
+            GameObject.FindWithTag("ClearStar2").GetComponent<ClearStar2>().clear2++;
             gameObject.SetActive(false);
+            
         }
     }
 }

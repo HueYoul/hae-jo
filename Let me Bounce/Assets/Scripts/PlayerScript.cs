@@ -16,13 +16,8 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
     public bool noGravity = false;
     public bool canDoubleJump = false;
 
-
     bool isGround;
     Vector3 curPos;
-
-    float threshold = 0.1f;
-    float walkForce = 150.0f;
-    float maxWalkSpeed = 1.0f;
 
     float speed = 10.0f;
 
@@ -52,7 +47,14 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = 5;
             }
 
-            /*if (Input.GetKey(KeyCode.RightArrow))
+            if (canDoubleJump)
+            {
+                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 700));
+                canDoubleJump = false;
+            }
+
+            //PC controll
+            if (Input.GetKey(KeyCode.RightArrow))
             {
                 gameObject.transform.Translate(new Vector3(0.02f, 0, 0));
             }
@@ -60,28 +62,11 @@ public class PlayerScript : MonoBehaviourPunCallbacks, IPunObservable
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 gameObject.transform.Translate(new Vector3(-0.02f, 0, 0));
-            }*/
-
-            if (canDoubleJump)
-            {
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 700));
-                canDoubleJump = false;
             }
 
-            /*int key = 0;
-            if (Input.acceleration.x > this.threshold) key = 1;
-            if (Input.acceleration.x < this.threshold) key = -1;
-
-            float speedx = Mathf.Abs(this.RB.velocity.x);
-
-            if(speedx < this.maxWalkSpeed)
-            {
-                this.RB.AddForce(transform.right * key * this.walkForce);
-            }*/
-
+            //Mobile controll
             Vector3 dir = Vector3.zero;
             dir.x = Input.acceleration.x;
-            //dir.y = Input.acceleration.y;
 
             if (dir.sqrMagnitude > 1)
                 dir.Normalize();

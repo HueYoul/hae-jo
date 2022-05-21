@@ -8,7 +8,7 @@ public class Trap2 : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.gameObject.transform.position = new Vector3(Random.Range(-3f, -2f), -27, 0);
+            collision.gameObject.transform.position = new Vector3(Random.Range(1.0f, 1.5f), -20, 0);
         }
     }
 }
