@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (star == 10)
+        if (star == 11)
         {
             //Time.timeScale = 0;
             ending.SetActive(true);

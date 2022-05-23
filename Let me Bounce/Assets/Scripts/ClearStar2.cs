@@ -18,7 +18,7 @@ public class ClearStar2 : MonoBehaviour
                 trans2++;
                 if (trans2 == 1)
                 {
-                    collision.gameObject.transform.position = new Vector3(Random.Range(0.0f, 0.5f), -43, 0);
+                    collision.gameObject.transform.position = new Vector3(Random.Range(-3.0f, -2.0f), -43, 0);
                 }
             }
 
