@@ -26,7 +26,7 @@ C#
 
 2월 ~ 3월 : Android 기울기 추가
 
-3월 ~ : 서버개발
+3월 ~ : 서버개발 및 맵제작
 
 ### 2-2. 개발 과정
 
@@ -115,7 +115,7 @@ C#
 
 튜토리얼 느낌으로 구현을 해서 특수발판과 함정은 존재하지 않는다.
 
-![12](https://user-images.githubusercontent.com/92212636/169641021-02d60dac-7a89-4c5c-aa77-8b2ed61b70f2.png)
+![12](https://user-images.githubusercontent.com/92212636/169835177-8775dec0-ad3c-410f-82bd-0347b342574a.PNG)
 
 
 #### 2022.05.21
@@ -126,7 +126,7 @@ C#
 ![123](https://user-images.githubusercontent.com/92212636/169641025-273e2814-8182-4d5a-8b85-3eaf3e13df08.PNG)
 
 #### 2022.05.22
-스테이지 3
+스테이지 3를 구현했다
 
 ![23](https://user-images.githubusercontent.com/92212636/169826498-3e7152b0-1edd-4f4a-923c-a8dfa3f0cc74.PNG)
 
